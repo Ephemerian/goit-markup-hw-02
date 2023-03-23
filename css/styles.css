@@ -96,18 +96,25 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 .advantages-text {
-  color: #434455;
+  color: #2e2f42;
   width: 264px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
 }
 /* Work Section */
 .work-title {
   font-size: 36px;
   font-weight: 700;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 
 /* Team Section */
@@ -117,6 +124,11 @@ body {
 .team-title {
   font-size: 36px;
   font-weight: 700;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 .team-caption {
   font-size: 20px;
