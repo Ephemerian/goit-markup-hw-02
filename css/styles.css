@@ -1,3 +1,18 @@
+:root {
+  --cl-primary-brand: #4d5ae5;
+  --cl-pressed-state: #404bbf;
+  --cl-dark: #2e2f42;
+  --cl-success: #31d0aa;
+  --cl-text: #434455;
+  --cl-subtle-text: #8e8f99;
+  --cl-accent: #e7e9fc;
+  --cl-light: #f4f4fd;
+  --cl-modal-overlay: rgba(46, 47, 66, 0.4);
+  --cl-hero-background: rgba(46, 47, 66, 0.7);
+  --cl-white-background: #ffffff;
+  --cl-modal-background: #fcfcfc;
+}
+
 body {
   color: #2e2f42;
   font-family: "Roboto", sans-serif;
@@ -57,9 +72,6 @@ body {
   background-color: #404bbf;
 }
 /* Advantages Section */
-.advantages-title {
-  display: none;
-}
 .advantages-text {
   color: #434455;
   width: 264px;
@@ -107,9 +119,6 @@ body {
 /* Portfolio */
 
 /* Menu */
-.menu-title {
-  display: none;
-}
 .menu--button {
   background-color: #e7e9fc;
   border: 1px solid #e7e9fc;
