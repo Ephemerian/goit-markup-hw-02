@@ -19,21 +19,6 @@ body {
   font-family: "Roboto", sans-serif;
 }
 /* Header */
-.list {
-  list-style: none;
-  font-weight: 500;
-}
-.link {
-  text-decoration: none;
-  color: #2e2f42;
-}
-.link:hover,
-.link:focus {
-  color: #4d5ae5;
-}
-.link--light {
-  color: #434455;
-}
 .logo {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -47,9 +32,31 @@ body {
 .logo--accent {
   color: #2e2f42;
 }
+.list {
+  list-style: none;
+  font-weight: 500;
+}
+.link {
+  text-decoration: none;
+  color: #2e2f42;
+}
+.link-menu {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.link:hover,
+.link:focus {
+  color: #404bbf;
+}
+.link--light {
+  color: #434455;
+}
+
 .address {
   font-style: normal;
   font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 /* Main */
 /* Hero Section */
