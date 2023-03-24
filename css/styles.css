@@ -177,7 +177,7 @@ body {
   border-radius: 4px;
   padding: 12px 24px;
   text-align: center;
-  cursor: pointer
+  cursor: pointer;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -189,4 +189,17 @@ body {
   background-color: #404bbf;
   color: white;
   border: none;
+}
+.menu-caption {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.menu-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
